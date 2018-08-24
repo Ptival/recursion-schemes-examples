@@ -1,0 +1,22 @@
+Name:                recursion-schemes-examples
+Version:             0.1
+Synopsis:            Examples of using recursion schemes
+Description:         Examples of using recursion schemes
+License:             MIT
+License-file:        LICENSE
+Author:              Valentin Robert
+Maintainer:          valentin.robert.42@gmail.com
+Stability:           Experimental
+Category:            Web
+Build-type:          Simple
+Cabal-version:       >=1.22
+
+Library
+  default-language: Haskell2010
+  ghc-options:      -Wall -Wno-orphans
+  hs-source-dirs:   lib
+  pkgconfig-depends: zlib
+  build-depends: base,
+                 free,
+                 recursion-schemes
+  exposed-modules:
