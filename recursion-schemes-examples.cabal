@@ -17,6 +17,7 @@ Library
   hs-source-dirs:   lib
   pkgconfig-depends: zlib
   build-depends: base,
+                 comonad,
                  free,
                  recursion-schemes
   exposed-modules:
